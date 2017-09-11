@@ -4,6 +4,7 @@
 
 不断完善中
 
+
 [cityPickView showPickViewWithComplete:^(NSArray *arr) {
 
     NSLog(@"%@",arr);
@@ -18,10 +19,6 @@
     {
         [self.choseButton setTitle:[NSString stringWithFormat:@"%@ %@",arr[0],arr[1]] forState:UIControlStateNormal];
 
-    }
-
-
-
-}];
+    }}];
     
 # LXCityLocationChoose
