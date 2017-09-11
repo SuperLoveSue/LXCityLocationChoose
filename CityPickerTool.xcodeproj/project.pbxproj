@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148F39991F66614A00F455C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 148F39981F66614A00F455C2 /* main.m */; };
+		148F399C1F66614A00F455C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 148F399B1F66614A00F455C2 /* AppDelegate.m */; };
+		148F399F1F66614A00F455C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148F399E1F66614A00F455C2 /* ViewController.m */; };
+		148F39A21F66614A00F455C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148F39A01F66614A00F455C2 /* Main.storyboard */; };
+		148F39A41F66614A00F455C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148F39A31F66614A00F455C2 /* Assets.xcassets */; };
+		148F39A71F66614A00F455C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148F39A51F66614A00F455C2 /* LaunchScreen.storyboard */; };
+		148F39B21F66614B00F455C2 /* CityPickerToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 148F39B11F66614B00F455C2 /* CityPickerToolTests.m */; };
+		148F39BD1F66614C00F455C2 /* CityPickerToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 148F39BC1F66614C00F455C2 /* CityPickerToolUITests.m */; };
+		148F39CC1F6661B700F455C2 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 148F39CB1F6661B700F455C2 /* libsqlite3.0.tbd */; };
+		148F39D31F6663AB00F455C2 /* city.db in Resources */ = {isa = PBXBuildFile; fileRef = 148F39CE1F6663AB00F455C2 /* city.db */; };
+		148F39D41F6663AB00F455C2 /* cityPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 148F39D01F6663AB00F455C2 /* cityPickView.m */; };
+		148F39D51F6663AB00F455C2 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 148F39D21F6663AB00F455C2 /* LocationManager.m */; };
+		148F39D81F666DA700F455C2 /* UIColor+ColorByString.m in Sources */ = {isa = PBXBuildFile; fileRef = 148F39D71F666DA700F455C2 /* UIColor+ColorByString.m */; };
+		694990B8E8E512FBCBE72BF4 /* libPods-CityPickerTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3E5F796EB1DBB4976F832 /* libPods-CityPickerTool.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		148F39AE1F66614B00F455C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148F398C1F66614A00F455C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148F39931F66614A00F455C2;
+			remoteInfo = CityPickerTool;
+		};
+		148F39B91F66614C00F455C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148F398C1F66614A00F455C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148F39931F66614A00F455C2;
+			remoteInfo = CityPickerTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		148F39941F66614A00F455C2 /* CityPickerTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityPickerTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		148F39981F66614A00F455C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		148F399A1F66614A00F455C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		148F399B1F66614A00F455C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		148F399D1F66614A00F455C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		148F399E1F66614A00F455C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		148F39A11F66614A00F455C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		148F39A31F66614A00F455C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		148F39A61F66614A00F455C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		148F39A81F66614B00F455C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148F39AD1F66614B00F455C2 /* CityPickerToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityPickerToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		148F39B11F66614B00F455C2 /* CityPickerToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityPickerToolTests.m; sourceTree = "<group>"; };
+		148F39B31F66614C00F455C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148F39B81F66614C00F455C2 /* CityPickerToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityPickerToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		148F39BC1F66614C00F455C2 /* CityPickerToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityPickerToolUITests.m; sourceTree = "<group>"; };
+		148F39BE1F66614C00F455C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148F39CB1F6661B700F455C2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		148F39CE1F6663AB00F455C2 /* city.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = city.db; sourceTree = "<group>"; };
+		148F39CF1F6663AB00F455C2 /* cityPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cityPickView.h; sourceTree = "<group>"; };
+		148F39D01F6663AB00F455C2 /* cityPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cityPickView.m; sourceTree = "<group>"; };
+		148F39D11F6663AB00F455C2 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		148F39D21F6663AB00F455C2 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		148F39D61F666DA700F455C2 /* UIColor+ColorByString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorByString.h"; sourceTree = "<group>"; };
+		148F39D71F666DA700F455C2 /* UIColor+ColorByString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorByString.m"; sourceTree = "<group>"; };
+		978B3000845F33D20E8D9427 /* Pods-CityPickerTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityPickerTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-CityPickerTool/Pods-CityPickerTool.release.xcconfig"; sourceTree = "<group>"; };
+		A4E3E5F796EB1DBB4976F832 /* libPods-CityPickerTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CityPickerTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA042F909561210E4A04B68E /* Pods-CityPickerTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityPickerTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CityPickerTool/Pods-CityPickerTool.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		148F39911F66614A00F455C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148F39CC1F6661B700F455C2 /* libsqlite3.0.tbd in Frameworks */,
+				694990B8E8E512FBCBE72BF4 /* libPods-CityPickerTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148F39AA1F66614B00F455C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148F39B51F66614C00F455C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		148F398B1F66614A00F455C2 = {
+			isa = PBXGroup;
+			children = (
+				148F39961F66614A00F455C2 /* CityPickerTool */,
+				148F39B01F66614B00F455C2 /* CityPickerToolTests */,
+				148F39BB1F66614C00F455C2 /* CityPickerToolUITests */,
+				148F39951F66614A00F455C2 /* Products */,
+				148F39CA1F6661B700F455C2 /* Frameworks */,
+				80EADC7EF9566E137B1A1A9B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		148F39951F66614A00F455C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148F39941F66614A00F455C2 /* CityPickerTool.app */,
+				148F39AD1F66614B00F455C2 /* CityPickerToolTests.xctest */,
+				148F39B81F66614C00F455C2 /* CityPickerToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		148F39961F66614A00F455C2 /* CityPickerTool */ = {
+			isa = PBXGroup;
+			children = (
+				148F39CD1F6663AB00F455C2 /* CityPickView */,
+				148F399A1F66614A00F455C2 /* AppDelegate.h */,
+				148F399B1F66614A00F455C2 /* AppDelegate.m */,
+				148F399D1F66614A00F455C2 /* ViewController.h */,
+				148F399E1F66614A00F455C2 /* ViewController.m */,
+				148F39A01F66614A00F455C2 /* Main.storyboard */,
+				148F39A31F66614A00F455C2 /* Assets.xcassets */,
+				148F39A51F66614A00F455C2 /* LaunchScreen.storyboard */,
+				148F39A81F66614B00F455C2 /* Info.plist */,
+				148F39971F66614A00F455C2 /* Supporting Files */,
+			);
+			path = CityPickerTool;
+			sourceTree = "<group>";
+		};
+		148F39971F66614A00F455C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				148F39981F66614A00F455C2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		148F39B01F66614B00F455C2 /* CityPickerToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				148F39B11F66614B00F455C2 /* CityPickerToolTests.m */,
+				148F39B31F66614C00F455C2 /* Info.plist */,
+			);
+			path = CityPickerToolTests;
+			sourceTree = "<group>";
+		};
+		148F39BB1F66614C00F455C2 /* CityPickerToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				148F39BC1F66614C00F455C2 /* CityPickerToolUITests.m */,
+				148F39BE1F66614C00F455C2 /* Info.plist */,
+			);
+			path = CityPickerToolUITests;
+			sourceTree = "<group>";
+		};
+		148F39CA1F6661B700F455C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				148F39CB1F6661B700F455C2 /* libsqlite3.0.tbd */,
+				A4E3E5F796EB1DBB4976F832 /* libPods-CityPickerTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		148F39CD1F6663AB00F455C2 /* CityPickView */ = {
+			isa = PBXGroup;
+			children = (
+				148F39D61F666DA700F455C2 /* UIColor+ColorByString.h */,
+				148F39D71F666DA700F455C2 /* UIColor+ColorByString.m */,
+				148F39CE1F6663AB00F455C2 /* city.db */,
+				148F39CF1F6663AB00F455C2 /* cityPickView.h */,
+				148F39D01F6663AB00F455C2 /* cityPickView.m */,
+				148F39D11F6663AB00F455C2 /* LocationManager.h */,
+				148F39D21F6663AB00F455C2 /* LocationManager.m */,
+			);
+			path = CityPickView;
+			sourceTree = "<group>";
+		};
+		80EADC7EF9566E137B1A1A9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA042F909561210E4A04B68E /* Pods-CityPickerTool.debug.xcconfig */,
+				978B3000845F33D20E8D9427 /* Pods-CityPickerTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		148F39931F66614A00F455C2 /* CityPickerTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148F39C11F66614D00F455C2 /* Build configuration list for PBXNativeTarget "CityPickerTool" */;
+			buildPhases = (
+				F778E10F5562A0783E0347E3 /* [CP] Check Pods Manifest.lock */,
+				148F39901F66614A00F455C2 /* Sources */,
+				148F39911F66614A00F455C2 /* Frameworks */,
+				148F39921F66614A00F455C2 /* Resources */,
+				31AE89BFD42F857F34E1D6BA /* [CP] Embed Pods Frameworks */,
+				75F18E5DBE17EF22514A378B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityPickerTool;
+			productName = CityPickerTool;
+			productReference = 148F39941F66614A00F455C2 /* CityPickerTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		148F39AC1F66614B00F455C2 /* CityPickerToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148F39C41F66614D00F455C2 /* Build configuration list for PBXNativeTarget "CityPickerToolTests" */;
+			buildPhases = (
+				148F39A91F66614B00F455C2 /* Sources */,
+				148F39AA1F66614B00F455C2 /* Frameworks */,
+				148F39AB1F66614B00F455C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148F39AF1F66614B00F455C2 /* PBXTargetDependency */,
+			);
+			name = CityPickerToolTests;
+			productName = CityPickerToolTests;
+			productReference = 148F39AD1F66614B00F455C2 /* CityPickerToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		148F39B71F66614C00F455C2 /* CityPickerToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148F39C71F66614D00F455C2 /* Build configuration list for PBXNativeTarget "CityPickerToolUITests" */;
+			buildPhases = (
+				148F39B41F66614C00F455C2 /* Sources */,
+				148F39B51F66614C00F455C2 /* Frameworks */,
+				148F39B61F66614C00F455C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148F39BA1F66614C00F455C2 /* PBXTargetDependency */,
+			);
+			name = CityPickerToolUITests;
+			productName = CityPickerToolUITests;
+			productReference = 148F39B81F66614C00F455C2 /* CityPickerToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		148F398C1F66614A00F455C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LianShangChe;
+				TargetAttributes = {
+					148F39931F66614A00F455C2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PK6A7Z9263;
+						ProvisioningStyle = Automatic;
+					};
+					148F39AC1F66614B00F455C2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PK6A7Z9263;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 148F39931F66614A00F455C2;
+					};
+					148F39B71F66614C00F455C2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PK6A7Z9263;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 148F39931F66614A00F455C2;
+					};
+				};
+			};
+			buildConfigurationList = 148F398F1F66614A00F455C2 /* Build configuration list for PBXProject "CityPickerTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 148F398B1F66614A00F455C2;
+			productRefGroup = 148F39951F66614A00F455C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				148F39931F66614A00F455C2 /* CityPickerTool */,
+				148F39AC1F66614B00F455C2 /* CityPickerToolTests */,
+				148F39B71F66614C00F455C2 /* CityPickerToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		148F39921F66614A00F455C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148F39D31F6663AB00F455C2 /* city.db in Resources */,
+				148F39A71F66614A00F455C2 /* LaunchScreen.storyboard in Resources */,
+				148F39A41F66614A00F455C2 /* Assets.xcassets in Resources */,
+				148F39A21F66614A00F455C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148F39AB1F66614B00F455C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148F39B61F66614C00F455C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31AE89BFD42F857F34E1D6BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CityPickerTool/Pods-CityPickerTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75F18E5DBE17EF22514A378B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CityPickerTool/Pods-CityPickerTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F778E10F5562A0783E0347E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		148F39901F66614A00F455C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148F39D41F6663AB00F455C2 /* cityPickView.m in Sources */,
+				148F39D51F6663AB00F455C2 /* LocationManager.m in Sources */,
+				148F399F1F66614A00F455C2 /* ViewController.m in Sources */,
+				148F399C1F66614A00F455C2 /* AppDelegate.m in Sources */,
+				148F39991F66614A00F455C2 /* main.m in Sources */,
+				148F39D81F666DA700F455C2 /* UIColor+ColorByString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148F39A91F66614B00F455C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148F39B21F66614B00F455C2 /* CityPickerToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148F39B41F66614C00F455C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148F39BD1F66614C00F455C2 /* CityPickerToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		148F39AF1F66614B00F455C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148F39931F66614A00F455C2 /* CityPickerTool */;
+			targetProxy = 148F39AE1F66614B00F455C2 /* PBXContainerItemProxy */;
+		};
+		148F39BA1F66614C00F455C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148F39931F66614A00F455C2 /* CityPickerTool */;
+			targetProxy = 148F39B91F66614C00F455C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		148F39A01F66614A00F455C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148F39A11F66614A00F455C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		148F39A51F66614A00F455C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148F39A61F66614A00F455C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		148F39BF1F66614D00F455C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		148F39C01F66614D00F455C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		148F39C21F66614D00F455C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA042F909561210E4A04B68E /* Pods-CityPickerTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PK6A7Z9263;
+				INFOPLIST_FILE = CityPickerTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinkCarAutomobile.CityPickerTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		148F39C31F66614D00F455C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978B3000845F33D20E8D9427 /* Pods-CityPickerTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PK6A7Z9263;
+				INFOPLIST_FILE = CityPickerTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinkCarAutomobile.CityPickerTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		148F39C51F66614D00F455C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PK6A7Z9263;
+				INFOPLIST_FILE = CityPickerToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinkCarAutomobile.CityPickerToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityPickerTool.app/CityPickerTool";
+			};
+			name = Debug;
+		};
+		148F39C61F66614D00F455C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PK6A7Z9263;
+				INFOPLIST_FILE = CityPickerToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinkCarAutomobile.CityPickerToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityPickerTool.app/CityPickerTool";
+			};
+			name = Release;
+		};
+		148F39C81F66614D00F455C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PK6A7Z9263;
+				INFOPLIST_FILE = CityPickerToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinkCarAutomobile.CityPickerToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CityPickerTool;
+			};
+			name = Debug;
+		};
+		148F39C91F66614D00F455C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PK6A7Z9263;
+				INFOPLIST_FILE = CityPickerToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinkCarAutomobile.CityPickerToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CityPickerTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		148F398F1F66614A00F455C2 /* Build configuration list for PBXProject "CityPickerTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148F39BF1F66614D00F455C2 /* Debug */,
+				148F39C01F66614D00F455C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148F39C11F66614D00F455C2 /* Build configuration list for PBXNativeTarget "CityPickerTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148F39C21F66614D00F455C2 /* Debug */,
+				148F39C31F66614D00F455C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148F39C41F66614D00F455C2 /* Build configuration list for PBXNativeTarget "CityPickerToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148F39C51F66614D00F455C2 /* Debug */,
+				148F39C61F66614D00F455C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148F39C71F66614D00F455C2 /* Build configuration list for PBXNativeTarget "CityPickerToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148F39C81F66614D00F455C2 /* Debug */,
+				148F39C91F66614D00F455C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 148F398C1F66614A00F455C2 /* Project object */;
+}
