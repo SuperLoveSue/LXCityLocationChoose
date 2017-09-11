@@ -5,7 +5,7 @@
 不断完善中
 
 
-[cityPickView showPickViewWithComplete:^(NSArray *arr) {
+    [cityPickView showPickViewWithComplete:^(NSArray *arr) {
 
     NSLog(@"%@",arr);
 
